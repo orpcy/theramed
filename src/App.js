@@ -1,6 +1,5 @@
-import { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 
 import Stage1 from "./Components/onboarding/Stage1";
 import Stage2 from "./Components/onboarding/Stage2";
@@ -14,12 +13,10 @@ import MoodBoard from "./Components/MoodBoard";
 import Planner from "./Components/Planner";
 
 import { ToastContainer } from "react-toastify";
-import { handleChange } from "./store/inputs/input-slice";
 
 import "./App.scss";
 
 const App = () => {
-  const dispatch = useDispatch();
   const { themeSelected } = useSelector((state) => state.theme);
 
   const bgImage = {
