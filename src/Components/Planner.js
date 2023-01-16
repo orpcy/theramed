@@ -14,7 +14,7 @@ const Planner = () => {
     <div className="app-content">
       <Navbar />
 
-      <main>
+      <main className="planner-page">
         <div className={`coming-soon planner ${animate}`}>
           <h1 className={animate}>Coming Soon 😇 </h1>
           <div className="planner-coming">

@@ -64,11 +64,13 @@ html {
       filter: invert(1);
     }
 
-    .desktop-nav, footer{
+    .desktop-nav,
+    footer {
       background-color: rgba(33, 37, 41, 0.926);
     }
 
-    .right-nav a, footer span{
+    .right-nav a,
+    footer span {
       color: white !important;
     }
 
@@ -108,8 +110,9 @@ html {
   margin: 0 auto;
   padding: 50px 0;
 
-  .app-name{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  .app-name {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
   }
 
   .input-wrap {
@@ -626,7 +629,8 @@ footer {
   }
 }
 
-.Toastify__toast--success > div > div, .Toastify__toast--error > div > div {
+.Toastify__toast--success > div > div,
+.Toastify__toast--error > div > div {
   color: #6c757d !important;
 }
 
@@ -636,7 +640,7 @@ footer {
   transition: 0.4s all ease-out !important;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
   background-color: rgb(24, 118, 118) !important;
   border-color: rgb(24, 118, 118) !important;
   transform: scale(1.03);
@@ -752,22 +756,31 @@ footer {
     .mobile-nav {
       background-color: rgba(33, 37, 41, 0.926);
 
-      a:hover{
+      a:hover {
         color: rgb(46, 183, 183);
       }
     }
   }
 
-  .coming-soon.planner{
+  .coming-soon {
+    margin-top: 20%;
+  }
+
+  .coming-soon.planner {
     margin-right: -900px;
   }
 
-  .coming-soon h1{
+  .coming-soon h1 {
     transition: 2s all ease-out;
   }
 
-  .mood-coming img{
+  .mood-coming img {
     transition: 1.5s all ease-out;
+  }
+
+  .planner-page,
+  .mood-page {
+    width: 90% !important;
   }
 }
 
