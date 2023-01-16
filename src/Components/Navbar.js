@@ -36,7 +36,7 @@ const Navbar = () => {
           <Dropdown>
             <Dropdown.Toggle id="dropdown-basic">
               <div className="profile">
-                <img src="/img/profile.png" alt="profile image" />
+                <img src="/img/profile.png" alt="profile" />
               </div>
             </Dropdown.Toggle>
 

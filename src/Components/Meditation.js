@@ -19,7 +19,7 @@ const Meditation = () => {
             {quick.map((m, i) => {
               return (
                 <div className="meditation-img" key={i}>
-                  <img src={`/img/medi${m}.png`} />
+                  <img src={`/img/medi${m}.png`} alt={`meditation${m}`} />
                 </div>
               );
             })}
