@@ -27,7 +27,7 @@ html {
 
     .app-content .activities .task > div:first-child h6,
     .accordion-button:not(.collapsed),
-    .app-content .activities .meditation>div:first-child h6{
+    .app-content .activities .meditation > div:first-child h6 {
       color: black;
     }
   }
@@ -71,7 +71,9 @@ html {
     }
 
     .right-nav a,
-    footer span {
+    footer span,
+    .onboarding h3,
+    .onboarding p {
       color: white !important;
     }
 
@@ -275,7 +277,7 @@ html {
     max-width: 1100px;
     width: 96%;
     margin: 0 auto;
-    margin-bottom: 40px;
+    margin-bottom: 90px;
   }
 
   .right-nav {
@@ -723,7 +725,8 @@ footer {
     align-items: center;
     justify-content: space-between;
     background-color: #b9c3cbf6;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     bottom: 0;
     z-index: 9;
     margin-top: auto;
