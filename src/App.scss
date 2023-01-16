@@ -626,7 +626,7 @@ footer {
   }
 }
 
-.Toastify__toast--success > div > div {
+.Toastify__toast--success > div > div, .Toastify__toast--error > div > div {
   color: #6c757d !important;
 }
 
