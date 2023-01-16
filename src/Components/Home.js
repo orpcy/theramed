@@ -65,14 +65,15 @@ const Home = () => {
                   </div>
                 </Accordion.Header>
                 <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  You can organize, track and monitor activities that are
+                  related to your mental well-being here. It includes self-care
+                  tasks, therapy homework, medication reminders and other
+                  activities that can help in managing and improving mental
+                  health. It can also include specific tasks related to
+                  achieving certain goals, such as practicing relaxation
+                  techniques, engaging in physical activities, or journaling. By
+                  regularly reviewing and monitoring the tasks, you can gain
+                  insight into your progress and make adjustments as needed.
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1">
@@ -88,14 +89,15 @@ const Home = () => {
                   </div>
                 </Accordion.Header>
                 <Accordion.Body>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  Meditation is a practice that involves focusing the mind on a
+                  specific thought, feeling, or activity to achieve a mentally
+                  clear and emotionally calm state. Meditation has positive
+                  effects on mental health, including reducing symptoms of
+                  anxiety and depression, improving attention and focus, and
+                  promoting overall well-being. Regular meditation practice may
+                  lead to structural changes in the brain, such as increased
+                  gray matter in areas related to emotional regulation and
+                  self-referential processing.
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
@@ -113,10 +115,13 @@ const Home = () => {
               <div>
                 <h3>Mood Tracking</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
-                  cumque qui deserunt, aspernatur vel mollitia perspiciatis
-                  voluptatem culpa dolores labore dolor quod ducimus blanditiis
-                  magni deleniti magnam perferendis. Corrupti, sapiente?
+                  Mood tracking is a process of regularly monitoring and
+                  recording one's emotional state. By tracking moods over time,
+                  patterns and triggers for certain emotions can be identified
+                  and addressed. This can help in managing mental health
+                  conditions, such as depression and anxiety, and can also aid
+                  in overall self-awareness and self-improvement. This Feature
+                  would be made available in the nearest future.
                 </p>
               </div>
             </div>
@@ -127,10 +132,15 @@ const Home = () => {
               <div>
                 <h3>Planner</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
-                  cumque qui deserunt, aspernatur vel mollitia perspiciatis
-                  voluptatem culpa dolores labore dolor quod ducimus blanditiis
-                  magni deleniti magnam perferendis. Corrupti, sapiente?
+                  A mental health planner is a tool that can be used to organize
+                  and keep track of appointments, therapy sessions, medication
+                  schedules, and other important information related to mental
+                  health. It can also be used to set goals, track progress, and
+                  record self-care activities. It can be helpful in managing and
+                  improving mental health, by providing a clear overview of
+                  one's treatment plan and enabling individuals to take an
+                  active role in their own care. This Feature would be made
+                  available in the nearest future.
                 </p>
               </div>
               <div className="img-wrap">

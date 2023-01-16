@@ -26,7 +26,8 @@ html {
     }
 
     .app-content .activities .task > div:first-child h6,
-    .accordion-button:not(.collapsed) {
+    .accordion-button:not(.collapsed),
+    .app-content .activities .meditation>div:first-child h6{
       color: black;
     }
   }
