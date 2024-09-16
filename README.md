@@ -1,1 +1,1 @@
-TheraMed: A React application for meditation and stress relief.
+TheraMed: A React application template for meditation and stress relief.
